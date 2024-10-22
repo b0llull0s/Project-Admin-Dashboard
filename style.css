@@ -26,18 +26,26 @@ body {
 /* Sidebar styles */
 .sidebar {
     grid-area: sidebar;
-    background-color: #6a15c0;
+    background-color: #2b0552;
     color: rgb(51, 255, 0);
     display: grid;
     grid-template-rows: auto 1fr;
     padding: 20px;
-    height: 100vh;
+    height: 100%;
     overflow-y: auto;
+    width: max(200px, 22.2%);
 }
 
-.branding {
-    text-align: center;
-    font-size: 1.5rem;
+/* Logo inside the sidebar */
+.logo a {
+    display: block; /* Ensures the logo link behaves as a block element */
+    text-align: center; /* Centers the logo horizontally */
+}
+
+.logo img {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 20%;
 }
 
 .nav ul {

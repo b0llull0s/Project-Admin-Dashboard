@@ -26,8 +26,8 @@ body {
 /* Sidebar styles */
 .sidebar {
     grid-area: sidebar;
-    background-color: #1565C0;
-    color: white;
+    background-color: #6a15c0;
+    color: rgb(51, 255, 0);
     display: grid;
     grid-template-rows: auto 1fr;
     padding: 20px;
@@ -50,7 +50,7 @@ body {
 
 .nav ul li a {
     text-decoration: none;
-    color: white;
+    color: rgb(255, 174, 0);
     font-size: 1.1rem;
 }
 
@@ -60,8 +60,9 @@ body {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
     align-items: center;
-    background-color: #F5F5F5;
+    background-color: #16261c;
     padding: 20px;
+    color: #22ff00;
 }
 
 .search-bar input {
@@ -81,8 +82,8 @@ body {
 .header-buttons button {
     margin-left: 10px;
     padding: 10px;
-    background-color: #42A5F5;
-    color: white;
+    background-color: #8c00ff;
+    color: rgb(0, 255, 8);
     border: none;
     cursor: pointer;
 }

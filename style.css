@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 5px;
-    background-color: #ffffff;
+    background-color: #F7E7CE;
 }
 
 .dashboard {
@@ -17,44 +17,6 @@ body {
     height: 1fr;
     gap: 10px;
     padding: 0;
-}
-
-/* Sidebar styles */
-.sidebar {
-    grid-area: sidebar;
-    background-color: rgb(28, 3, 44);
-    color: rgb(51, 255, 0);
-    display: grid;
-    grid-template-rows: 100px auto;
-    padding: 10px;
-    height: 100%;
-    width: max(200px, 22.2%);
-}
-
-/* Logo inside the sidebar */
-.logo a {
-    display: block; /* Ensures the logo link behaves as a block element */
-    text-align: center; /* Centers the logo horizontally */
-}
-
-.logo img {
-    width: 4rem;
-    height: 4rem;
-    border-radius: 20%;
-}
-
-.nav ul {
-    list-style: none;
-}
-
-.nav ul li {
-    padding: 15px 0;
-}
-
-.nav ul li a {
-    text-decoration: none;
-    color: rgb(255, 174, 0);
-    font-size: 1.1rem;
 }
 
 /* Header styles */
@@ -92,6 +54,41 @@ body {
     color: rgb(0, 255, 8);
     border: none;
     cursor: pointer;
+}
+
+/* Sidebar styles */
+.sidebar {
+    grid-area: sidebar;
+    background-color: rgb(28, 3, 44);
+    display: grid;
+    grid-template-rows: 100px auto;
+    padding: 10px;
+    height: 100%;
+    width: max(200px, 22.2%);
+}
+
+/* Logo inside the sidebar */
+.logo {
+    color: rgb(51, 255, 0);
+    display: block; /* Ensures the logo link behaves as a block element */
+    text-align: center; /* Centers the logo horizontally */
+}
+
+.logo img {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 20%;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: rgb(255, 174, 0);
+    font-size: 1.1rem;
+}
+
+.nav ul li {
+    padding: 15px 0;
+    list-style: none;
 }
 
 /* Main Content styles */

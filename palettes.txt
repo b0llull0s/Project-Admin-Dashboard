@@ -1,0 +1,17 @@
+# Resources
+
+# Palettes
+
+1: https://colorhunt.co/palette/32012f524c42e2dfd0f97300
+2: https://colorhunt.co/palette/0306373c0753720455910a67
+3: https://colorhunt.co/palette/46244c712b75c74b50d49b54
+4: https://colorhunt.co/palette/37066535589af14a16fc9918
+5: https://colorhunt.co/palette/2c272e753188e599349ae66e
+6: https://colorhunt.co/palette/0000003e065f700b978e05c2
+7: https://colorhunt.co/palette/0000001500503f0071610094
+8: https://colorhunt.co/palette/2a09443b185fa12568fec260
+9: https://colorhunt.co/palette/151515301b3f3c415cb4a5a5
+10: https://colorhunt.co/palette/00000052057b892cdcbc6ff1
+11: https://colorhunt.co/palette/ffc15e8158fc692db734314f
+12: https://colorhunt.co/palette/4a772fffdd00fa9e05a7095c
+13: https://colorhunt.co/palette/461b936a3cbc8253d7f78f1e

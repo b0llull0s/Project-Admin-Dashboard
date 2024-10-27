@@ -102,6 +102,7 @@ body {
 
 .projects {
     grid-column: span 2;
+    grid-row: 4;
 }
 
 .project-grid {

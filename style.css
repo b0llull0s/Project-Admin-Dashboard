@@ -6,6 +6,7 @@ body {
     background-color: #F7E7CE;
 }
 
+/* Dashboard */
 .dashboard {
     display: grid;
     grid-template-areas: 
@@ -22,9 +23,9 @@ body {
 /* Header styles */
 .header {
     grid-area: header;
-    display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
+    display: flex;
     align-items: center;
+    justify-content: space-between;
     background-color: #360a0a;
     padding: 20px;
     color: #22ff00;
@@ -34,24 +35,19 @@ body {
     width: 100%;
     padding: 10px;
     background-color: rgb(28, 3, 44);
-    border-color: #22ff00;
+    border: 1px solid #22ff00;    
     color: #ffffff;
 }
 
-.user-info {
+/* .user-info {
     text-align: center;
-}
-
-.header-buttons {
-    display: flex;
-    justify-content: flex-end;
-}
+} */
 
 .header-buttons button {
     margin-left: 10px;
     padding: 10px;
     background-color: rgb(28, 3, 44);
-    color: rgb(0, 255, 8);
+    color: #22ff00;
     border: none;
     cursor: pointer;
 }
@@ -70,8 +66,8 @@ body {
 /* Logo inside the sidebar */
 .logo {
     color: rgb(51, 255, 0);
-    display: block; /* Ensures the logo link behaves as a block element */
-    text-align: center; /* Centers the logo horizontally */
+    display: block; 
+    text-align: center; 
 }
 
 .logo img {
@@ -88,7 +84,6 @@ body {
 
 .nav ul li {
     padding: 15px 0;
-    list-style: none;
 }
 
 /* Main Content */
@@ -103,6 +98,10 @@ body {
 .projects {
     grid-column: span 2;
     grid-row: 4;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .project-grid {
@@ -141,7 +140,3 @@ body {
 
 }
 
-/* .trend-item {
-    
-
-} */

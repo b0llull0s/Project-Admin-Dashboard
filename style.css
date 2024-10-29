@@ -120,6 +120,7 @@ body {
 
 /* announcements */
 .announcements {
+    grid-area: announcements;
     background-color: white;
     padding: 20px;
     border-radius: 5px;
@@ -132,6 +133,7 @@ body {
 
 /* Trendng */
 .trending {
+    grid-area: trending;
     background-color: white;
     padding: 20px;
     border-radius: 5px;

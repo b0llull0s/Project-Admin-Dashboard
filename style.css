@@ -63,7 +63,6 @@ body {
     width: max(200px, 22.2%);
 }
 
-/* Logo inside the sidebar */
 .logo {
     color: rgb(51, 255, 0);
     display: block; 
@@ -120,14 +119,23 @@ body {
 /* announcements */
 .announcements {
     grid-area: announcements;
+    display: grid;
+    grid-column: span 1;
+    grid-row: 3;
     background-color: white;
     padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.announcement-grid {
+    margin-bottom: 15px;
+    display: grid;
+    gap: 15px;
 }
 
 .announcement {
-    margin-bottom: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
 }
 
 /* Trendng */

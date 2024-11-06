@@ -1,7 +1,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
+    margin: 10px;
     padding: 5px;
     background-color: #151515;
 }
@@ -30,9 +30,7 @@ h2{
         "sidebar main-content main-trending";
     grid-template-columns: 230px 5fr 2fr;
     grid-template-rows: 80px 1fr;
-    height: 1fr;
     gap: 10px;
-    padding: 0;
 }
 
 /* Header styles */
@@ -54,17 +52,21 @@ h2{
     color: rgb(255, 174, 0);
 }
 
-/* .user-info {
-    text-align: center;
-} */
+.search-bar input:focus {
+    background-color: #258f15; 
+    border: 3px solid rgb(28, 3, 44);  
+    color: rgb(28, 3, 44); 
+    outline: none; 
+}
 
 .header-buttons button {
     margin-left: 10px;
     padding: 10px;
     background-color: rgb(28, 3, 44);
     color: #22ff00;
-    border: none;
     cursor: pointer;
+    border: 1px solid #22ff00;    
+
 }
 
 /* Sidebar styles */
@@ -106,7 +108,6 @@ h2{
 .main-content {
     grid-area: main-content;
     display: grid;
-    gap: 20px;
     padding: 20px;
 }
 
@@ -190,13 +191,11 @@ h2{
 .projects,
 .announcements,
 .trending {
-    background-color: #3C415C; /* Base background color */
-    padding: 20px; /* Creates inner padding for grid effect */
+    background-color: #3C415C;
+    padding: 20px; 
 
-
-    /* Layered shadows: outline-like effect only on bottom and right */
     box-shadow: 
-        0 10px 0 0 #640f0f, /* Shadow for the bottom (grid effect) */
-        10px 0 0 0 #640f0f, /* Shadow for the right (grid effect) */
-        0 15px 25px rgba(40, 100, 38, 0.5); /* Original shadow for depth */
+        0 10px 0 0 #640f0f, 
+        10px 0 0 0 #640f0f, 
+        0 15px 25px rgba(40, 100, 38, 0.5); 
 }

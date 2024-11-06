@@ -7,7 +7,17 @@ body {
 }
 
 * {
-    border-radius: 30px; /* This applies to all elements */
+    border-radius: 30px; 
+}
+
+/* headers */
+
+h1{
+    color: #22ff00;
+}
+
+h2{
+    text-align: center;
 }
 
 
@@ -68,10 +78,6 @@ body {
     width: max(200px, 22.2%);
 }
 
-.h1 {
-    color: #ca0e1e;
-}
-
 .logo {
     display: block; 
     text-align: center; 
@@ -121,7 +127,6 @@ body {
     background-color: #301B3F;
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 /* announcements */
@@ -148,7 +153,6 @@ body {
 
 .announcement-item {
     border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     padding: 20px;
     background-color: #301B3F;
 }
@@ -159,14 +163,14 @@ body {
     color: #ca0e1e;
     grid-area: main-trending;
     display: grid;
-    box-shadow: 0 10px 20px rgba(40, 100, 38, 0.5);
 }
 
 .trending {
-    grid-column: span 1;
     grid-row: 3;
     background-color: #3C415C;
     padding: 20px;
+    box-shadow: 0 10px 20px rgba(40, 100, 38, 0.5);
+
 }
 
 .trending-grid {

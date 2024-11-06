@@ -69,6 +69,12 @@ h2{
 
 }
 
+.header-buttons button:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 10px 10px; 
+}
+
 /* Sidebar styles */
 .sidebar {
     grid-area: sidebar;
@@ -102,6 +108,12 @@ h2{
 .nav ul li {
     list-style-type: none;
     padding: 15px 0;
+}
+
+.nav ul li a:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 10px 10px; 
 }
 
 /* Main Content */
@@ -199,3 +211,4 @@ h2{
         10px 0 0 0 #640f0f, 
         0 15px 25px rgba(40, 100, 38, 0.5); 
 }
+

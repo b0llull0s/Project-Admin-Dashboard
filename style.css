@@ -114,7 +114,6 @@ h2{
     color: rgb(255, 174, 0);
     padding: 20px;
     background-color: #3C415C;
-    box-shadow: 0 10px 20px rgba(40, 100, 38, 0.5);
 }
 
 .project-grid {
@@ -142,7 +141,6 @@ h2{
     grid-row: 3;
     background-color: #3C415C;
     padding: 20px;
-    box-shadow: 0 10px 20px rgba(40, 100, 38, 0.5);
 }
 
 .announcement-grid {
@@ -169,7 +167,6 @@ h2{
     grid-row: 3;
     background-color: #3C415C;
     padding: 20px;
-    box-shadow: 0 10px 20px rgba(40, 100, 38, 0.5);
 
 }
 
@@ -190,3 +187,16 @@ h2{
     padding: 20px;
 }
 
+.projects,
+.announcements,
+.trending {
+    background-color: #3C415C; /* Base background color */
+    padding: 20px; /* Creates inner padding for grid effect */
+
+
+    /* Layered shadows: outline-like effect only on bottom and right */
+    box-shadow: 
+        0 10px 0 0 #640f0f, /* Shadow for the bottom (grid effect) */
+        10px 0 0 0 #640f0f, /* Shadow for the right (grid effect) */
+        0 15px 25px rgba(40, 100, 38, 0.5); /* Original shadow for depth */
+}

@@ -66,13 +66,90 @@ h2{
     color: #22ff00;
     cursor: pointer;
     border: 1px solid #22ff00;    
-
 }
 
 .header-buttons button:hover {
     cursor: pointer;
     background-color: rgba(0, 0, 0, 0.2);
     padding: 10px 10px; 
+}
+
+/* Language selector */
+#language-selector {
+    color: #22ff00;
+    border: 1px solid #22ff00;
+    display: none; 
+    position: absolute;
+    top: 80px; 
+    right: 10px; 
+    background-color: rgb(28, 3, 44);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    width: auto; 
+    display: flex;
+    align-items: center; 
+    gap: 10px; 
+}
+
+#language-select {
+    padding: 8px 15px; 
+    background-color: #1f1f1f; 
+    color: #22ff00; 
+    border: 1px solid #22ff00; 
+    border-radius: 5px;
+    font-size: 1rem; 
+    outline: none; 
+    width: 150px; 
+    transition: background-color 0.3s ease; 
+}
+
+#language-select:hover {
+    background-color: #333333; 
+}
+
+#language-select:focus {
+    background-color: #3f3f3f; 
+    border-color: #22ff00; 
+}
+
+#translate-button {
+    padding: 8px 15px; 
+    background-color: #640f0f; 
+    color: #22ff00; 
+    border: 1px solid #22ff00; 
+    border-radius: 5px;
+    font-size: 1rem; 
+    cursor: pointer;
+    transition: all 0.3s ease; 
+    text-align: center;
+}
+
+#translate-button:hover {
+    background-color: #22ff00; 
+    color: #640f0f; 
+    border-color: #640f0f; 
+}
+
+#language-selector:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Animation */
+@keyframes slideIn {
+    0% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+#language-selector {
+    animation: slideIn 0.3s ease-out;
 }
 
 /* Sidebar styles */

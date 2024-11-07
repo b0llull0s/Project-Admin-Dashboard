@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Panic Threads</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
-
 <body>
     <div class="dashboard">
          
@@ -18,8 +18,9 @@
                 <h1>Panic Threads</h1>
             </div>
             <nav class="nav">
-                <ul>
+            <ul>
                     <li><a href="#"><strong>News</strong></a></li>
+                    <li><a href="#"><strong>Opinion</strong></a></li>
                     <li><a href="#"><strong>Papers</strong></a></li>
                     <li><a href="#"><strong>Open Source</strong></a></li>
                     <li><a href="#"><strong>Indie Games</strong></a></li>
@@ -28,8 +29,8 @@
                     <li><a href="#"><strong>Food recipes</strong></a></li>
                     <li><a href="#"><strong>Haikus</strong></a></li>
                     <li><a href="#"><strong>About us</strong></a></li>
-                </ul>
-            </nav>
+            </ul>
+        </nav>
         </aside>
 
         <!-- Header -->
@@ -46,6 +47,18 @@
             </div>
         </header>
 
+        <div id="language-selector">
+            <label for="language-select">Select Language: </label>
+            <select id="language-select">
+                <option value="es">Spanish</option>
+                <option value="fr">French</option>
+                <option value="de">German</option>
+                <option value="it">Italian</option>
+                <option value="pt">Portuguese</option>
+            </select>
+            <button id="translate-button"><strong>Translate</strong></button> <!-- Button to trigger translation -->
+        </div>
+
         <!-- Main Content -->
         <section class="main-content">
             <section class="projects">
@@ -58,7 +71,7 @@
                     <div class="project-card">Project 5</div>
                     <div class="project-card">Project 6</div>
                 </div>
-            </section>
+        </section>
         </section>
         
 
@@ -71,8 +84,8 @@
                     <div class="announcement-item">Community Share Day</div>
                     <div class="announcement-item">Updated Privacy Policy</div>
                 </div>
-            </section>
-        </section>    
+        </section>
+        </section>
 
 <!-- Trending -->
         <section class="main-trending">
@@ -83,5 +96,8 @@
                     <div class="trending-item">Trend 2</div>
                     <div class="trending-item">Trend 3</div>
                 </div>
-            </section>
-        </section>    
+        </section>
+        </section>
+
+</body>
+</html>
